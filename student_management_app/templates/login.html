@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static %} 
+
+{% block content %}
+
+    <body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <a href="{% url 'login' %}"><b>Student </b>Management System</a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Sign in to Student Management System</p>
+
+      <form action="{% url 'doLogin' %}" method="POST">
+      {% csrf_token %}
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Email" name="email">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-envelope"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" placeholder="Password" name="password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+          </div>
+
+          {% comment %} <div class="col-12 text-center">
+            <a href="{% url 'password_reset' %}">Reset Password</a>
+          </div>  {% endcomment %}
+
+          {% comment %} Display Messages {% endcomment %}
+          {% if messages %}
+          <div class="col-12">
+            {% for message in messages %}
+              {% if message.tags == "error" %}
+                <div class="alert alert-danger alert-dismissible fade show" role="alert" style="margin-top: 10px;">
+                  {{ message }}
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+        </div>
+      </form>
+
+
+  </div>
+</div>
+<!-- /.login-box -->
+
+
+<!-- 
+<div class="login-to-open-university-parent">
+  <div class="login-to-open-container">
+    <p class="login-to">Login to</p>
+    <p class="login-to">Open University</p>
+    <p class="p"></p>
+  </div>
+  <div class="if-you-dont-container">
+    <p class="if-you-dont-have-a-id">
+      <span class="if-you-dont">if you dont have a </span>
+      <span>
+        <b class="id">id</b>
+      </span>
+      <span class="span">
+        <span> </span>
+      </span>
+    </p>
+    <p class="you-can-ask-in-university-admi">
+      <span class="span">
+        <span>you can ask in university administration</span>
+      </span>
+    </p>
+  </div>
+  <img class="frame-child" alt="" src="./public/rectangle-2.svg" />
+
+  <div class="forget-id-container">
+    <p class="if-you-dont-have-a-id">
+      <span class="forget">forget </span>
+      <span>
+        <b class="id-password">id & password</b>
+      </span>
+      <span class="span">
+        <span>
+          <span> </span>
+        </span>
+      </span>
+    </p>
+    <p class="you-can-ask-in-university-admi2">
+      <span class="span">
+        <span>you can ask in university administration</span>
+      </span>
+    </p>
+  </div>
+  <img class="frame-item" alt="" src="./public/rectangle-4.svg" />
+
+  <div class="email-student-id">Email Student id</div>
+  <b class="login">Login</b>
+  <div class="password">Password</div>
+  <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+  <div class="privacy-and-policies">Privacy and Policies</div>
+  <div class="contact">Contact</div>
+  <div class="about">About</div>
+  <div class="university-home-page">University Home Page</div>
+  <div class="university-online">University online</div>
+</div> -->
+
+{% endblock %}

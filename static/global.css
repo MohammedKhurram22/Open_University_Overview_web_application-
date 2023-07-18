@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-megrim: Megrim;
+  --font-inter: Inter;
+  --font-josefin-sans: "Josefin Sans";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-4xl: 23px;
+  --font-size-9xl: 28px;
+  --font-size-lgi: 19px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blue-100: #4000f5;
+  --color-gray: #1b1b1b;
+  --color-dimgray: #737373;
+  --color-black: #000;
+}

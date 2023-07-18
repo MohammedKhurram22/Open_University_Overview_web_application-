@@ -1,0 +1,189 @@
+.login-to,
+.p {
+  margin: 0;
+  line-height: 114px;
+}
+.p {
+  line-height: 112px;
+}
+.login-to-open-container {
+  position: absolute;
+  top: 302px;
+  left: 157px;
+  font-size: 96px;
+  letter-spacing: -0.09em;
+  color: var(--color-black);
+  display: inline-block;
+  width: 714px;
+  height: 416px;
+}
+.id,
+.if-you-dont {
+  font-family: var(--font-josefin-sans);
+}
+.if-you-dont {
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+}
+.id {
+  font-size: var(--font-size-9xl);
+  letter-spacing: 0.02em;
+}
+.span {
+  letter-spacing: 0.04em;
+}
+.if-you-dont-have-a-id {
+  margin: 0;
+}
+.you-can-ask-in-university-admi {
+  margin: 0;
+  color: var(--color-black);
+}
+.if-you-dont-container {
+  position: absolute;
+  top: 695px;
+  left: 157px;
+  line-height: 31px;
+  display: inline-block;
+  width: 487px;
+  height: 117px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-blue-100);
+}
+.frame-child {
+  position: absolute;
+  top: 261px;
+  left: 1282px;
+  border-radius: 16px;
+  width: 436px;
+  height: 199.5px;
+}
+.forget,
+.id-password {
+  font-family: var(--font-josefin-sans);
+}
+.forget {
+  font-size: var(--font-size-lgi);
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+}
+.id-password {
+  font-size: var(--font-size-4xl);
+  letter-spacing: 0.02em;
+}
+.you-can-ask-in-university-admi2 {
+  margin: 0;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+}
+.forget-id-container {
+  position: absolute;
+  top: 546px;
+  left: 1257px;
+  line-height: 31px;
+  text-align: center;
+  display: inline-block;
+  width: 487px;
+  height: 117px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-blue-100);
+}
+.frame-item {
+  position: absolute;
+  top: 663px;
+  left: 1397px;
+  border-radius: 26px;
+  width: 206px;
+  height: 69px;
+}
+.email-student-id,
+.login,
+.password {
+  position: absolute;
+  top: 279px;
+  left: 1234px;
+  font-size: var(--font-size-4xl);
+  letter-spacing: 0.04em;
+  line-height: 31px;
+  color: var(--color-dimgray);
+  text-align: center;
+  display: inline-block;
+  width: 306px;
+  height: 50px;
+}
+.login,
+.password {
+  top: 682px;
+  left: 1347px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+}
+.password {
+  top: 416px;
+  left: 1194px;
+  font-size: var(--font-size-4xl);
+  color: var(--color-dimgray);
+}
+.image-1-icon {
+  position: absolute;
+  top: 405px;
+  left: 660px;
+  width: 422px;
+  height: 554px;
+  object-fit: cover;
+}
+.about,
+.contact,
+.privacy-and-policies,
+.university-home-page,
+.university-online {
+  position: absolute;
+  top: 26px;
+  left: 1106px;
+  font-family: var(--font-inter);
+  display: inline-block;
+  width: 202px;
+  height: 34px;
+}
+.about,
+.contact,
+.university-home-page,
+.university-online {
+  left: 1466px;
+}
+.about,
+.university-home-page,
+.university-online {
+  top: 28px;
+  left: 1351px;
+}
+.university-home-page,
+.university-online {
+  top: 26px;
+  left: 1592px;
+  width: 233px;
+}
+.university-online {
+  top: -16px;
+  left: 14px;
+  font-size: 42px;
+  letter-spacing: -0.09em;
+  line-height: 114px;
+  font-weight: 500;
+  font-family: var(--font-megrim);
+  color: #0029ff;
+  width: 500px;
+  height: 115px;
+}
+.login-to-open-university-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-josefin-sans);
+}
